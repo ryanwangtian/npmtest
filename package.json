@@ -1,5 +1,5 @@
 {
-  "name": "npmtest",
+  "name": "wt-npm-test",
   "version": "0.1.0",
   "description": "npm test",
   "main": "index.js",
