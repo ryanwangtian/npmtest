@@ -4,5 +4,6 @@
 [MITM]
 hostname = %APPEND%, api.dongqiudi.com
 
-[Script]
+[Script] 
 http-response https:\/\/api.dongqiudi.com\/data\/tab\/new\/* script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/dqd/dqd.js, requires-body = true
+http-response https:\/\/api-chat.soulapp.cn\/chat\/limitInfo script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/dqd/test.js, requires-body = true
