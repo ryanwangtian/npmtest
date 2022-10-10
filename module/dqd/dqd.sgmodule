@@ -1,3 +1,6 @@
+#!name=dqd
+#!desc=dqd
+
 [MITM]
 hostname = %APPEND%, api.dongqiudi.com
 
