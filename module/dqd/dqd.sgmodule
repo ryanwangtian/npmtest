@@ -2,7 +2,7 @@
 #!desc=dqd
 
 [MITM]
-hostname = %APPEND%, api.dongqiudi.com
+hostname = %APPEND%, api.dongqiudi.com, api-chat.soulapp.cn
 
 [Script] 
 http-response https:\/\/api.dongqiudi.com\/data\/tab\/new\/* script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/dqd/dqd.js, requires-body = true
