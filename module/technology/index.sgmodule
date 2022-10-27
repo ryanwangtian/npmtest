@@ -6,6 +6,7 @@ hostname = %APPEND% suishenmastatic.sh.gov.cn, suishenmafront1.sh.gov.cn, suishe
 
 [URL Rewrite]
 ^https://suishenmastatic.sh.gov.cn/audio _ reject
+^https://suishenmafront1.sh.gov.cn/open_code_servicemanage/appletCfg/getLocationAppletList _ reject
 
 [Script]
 http-response https:\/\/suishenmafront1.sh.gov.cn\/hesuan\/api\/hs\/getByTokenV2 script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/technology/1.js, requires-body = true
