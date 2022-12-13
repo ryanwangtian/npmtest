@@ -5,7 +5,7 @@ function leftPad(str, len, ch) {
   }
   return res;
 }
-function getTime() {
+function formatDate(date) {
   const date = new Date(Date.now() - 53 * 60 * 1000);
   return (
     date.getFullYear() +
@@ -27,13 +27,13 @@ body.data = [
   {
     card_type_name: "身份证",
     check_project: "核酸",
-    collect_date: "2022-12-01 09:44:53",
+    collect_date: formatDate(new Date(Date.now() - 487 * 60 * 1000)),
     collect_mode: "10",
     name: body.data[0].name,
     nat_result: "2",
     nat_result_name: "阳性",
-    report_date: "2022-12-01 15:55:33",
-    sample_date: "2022-12-01 09:44:53",
+    report_date: formatDate(new Date(Date.now() - 53 * 60 * 1000)),
+    sample_date: formatDate(new Date(Date.now() - 487 * 60 * 1000)),
     sample_orgname: "上海奕检医学检验实验室",
     sample_type_name: "咽拭子",
     test_orgname: "上海奕检医学检验实验室",
