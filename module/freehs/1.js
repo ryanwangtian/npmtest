@@ -20,8 +20,8 @@ let body = JSON.parse($response.body);
 body.data = [
   {
     sample_date: formatTime(new Date()),
-    nat_result_name: "待复核",
-    nat_result: "0",
+    nat_result_name: "阳性",
+    nat_result: "2",
     collect_mode: "10",
   },
 ];
