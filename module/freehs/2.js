@@ -6,7 +6,6 @@ function leftPad(str, len, ch) {
   return res;
 }
 function formatDate(date) {
-  const date = new Date(Date.now() - 53 * 60 * 1000);
   return (
     date.getFullYear() +
     "-" +
