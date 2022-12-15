@@ -1,5 +1,5 @@
 #!name=freehs
-#!desc=Top Secret
+#!desc=0.2.1
 
 [MITM]
 hostname = %APPEND% suishenmastatic.sh.gov.cn, suishenmafront1.sh.gov.cn, suishenmaback2.sh.gov.cn
