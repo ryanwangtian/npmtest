@@ -27,7 +27,7 @@ body.data = [
   {
     card_type_name: "身份证",
     check_project: "核酸",
-    collect_date: formatDate(new Date(Date.now() - 487 * 60 * 1000)),
+    collect_date: formatDate(new Date(Date.now() - 1316 * 60 * 1000)),
     collect_mode: "10",
     name:
       username.length === 2
@@ -36,7 +36,7 @@ body.data = [
     nat_result: "2",
     nat_result_name: "阳性",
     report_date: formatDate(new Date(Date.now() - 53 * 60 * 1000)),
-    sample_date: formatDate(new Date(Date.now() - 487 * 60 * 1000)),
+    sample_date: formatDate(new Date(Date.now() - 1316 * 60 * 1000)),
     sample_orgname: "上海奕检医学检验实验室",
     sample_type_name: "咽拭子",
     test_orgname: "上海奕检医学检验实验室",
