@@ -41,7 +41,8 @@ body.data = [
     sample_type_name: "咽拭子",
     test_orgname: "上海奕检医学检验实验室",
   },
-].concat(body.data);
+];
+// .concat(body.data || []);
 
 res.body = JSON.stringify(body);
 $done(res);
