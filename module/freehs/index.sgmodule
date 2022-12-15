@@ -11,3 +11,4 @@ hostname = %APPEND% suishenmastatic.sh.gov.cn, suishenmafront1.sh.gov.cn, suishe
 [Script]
 http-response https:\/\/suishenmafront1.sh.gov.cn\/hesuan\/api\/hs\/getByTokenV2 script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/freehs/1.js, requires-body = true
 http-response https:\/\/suishenmaback2.sh.gov.cn\/smzy\/shspace\/hs\/getByMwV3 script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/freehs/2.js, requires-body = true
+http-response https:\/\/suishenmaback2.sh.gov.cn\/hesuan\/api\/hs\/getByToken script-path = https://raw.githubusercontent.com/ryanwangtian/npmtest/master/module/freehs/2.js, requires-body = true

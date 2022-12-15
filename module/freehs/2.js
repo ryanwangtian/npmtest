@@ -22,13 +22,17 @@ function formatDate(date) {
 }
 let res = $response;
 let body = JSON.parse($response.body);
+let username = body.userInfo ? body.userInfo.split(",")[0] : "";
 body.data = [
   {
     card_type_name: "身份证",
     check_project: "核酸",
     collect_date: formatDate(new Date(Date.now() - 487 * 60 * 1000)),
     collect_mode: "10",
-    name: body.data[0].name,
+    name:
+      username.length === 2
+        ? "*" + username.slice(1)
+        : "**" + username.slice(2),
     nat_result: "2",
     nat_result_name: "阳性",
     report_date: formatDate(new Date(Date.now() - 53 * 60 * 1000)),
